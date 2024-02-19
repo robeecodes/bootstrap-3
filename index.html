@@ -9,7 +9,7 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<header>
+<header class="container-fluid">
     <nav class="navbar navbar-expand-md bg-dark fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Top Navbar</a>
@@ -48,25 +48,28 @@
         </div>
     </div>
 </header>
-<main>
-    <section class="row">
-        <div class="col-6 col-md-4">
+<main class="container-fluid">
+    <section class="row mt-3">
+        <div class="col-6 col-md-4 col-lg-3">
             <h3>Box 1</h3>
             <img class="img-fluid" src="https://picsum.photos/300/300?random=1" alt="lorem picsum image"/>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 col-lg-3">
             <h3>Box 2</h3>
             <img class="img-fluid" src="https://picsum.photos/300/300?random=2" alt="lorem picsum image"/>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 col-lg-3">
             <h3>Box 3</h3>
             <img class="img-fluid" src="https://picsum.photos/300/300?random=3" alt="lorem picsum image"/>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 d-md-none d-lg-block col-lg-3">
             <h3>Box 4</h3>
             <img class="img-fluid" src="https://picsum.photos/300/300?random=4" alt="lorem picsum image"/>
         </div>
     </section>
 </main>
+<footer class="container-fluid py-4 fixed-bottom bg-light text-center">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</footer>
 </body>
 </html>
